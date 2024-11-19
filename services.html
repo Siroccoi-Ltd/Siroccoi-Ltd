@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Siroccoi (U) Limited</title>
+    <title>Contact Us - Siroccoi (U) Limited</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- Navbar -->
+<div class="navbar custom-navbar wow fadeInDown" data-wow-duration="2s" role="navigation">
+  <div class="container"> 
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="icon icon-bar"></span> 
+        <span class="icon icon-bar"></span> 
+        <span class="icon icon-bar"></span> 
+      </button>
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo1.png" alt="" style="height: 55px;"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="services.html">Service</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li class="active"><a href="contact-us.html">Contact</a></li>
+        <li><span class="calltxt"><i class="fa fa-phone" aria-hidden="true"></i>+256 706719459</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
     <style>
         /* Smooth Fade-In Animation */
         .fade-in {
@@ -40,17 +70,6 @@
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <!-- Header Section -->
-    <header class="bg-gray-900 text-white p-6 text-center">
-        <h1 class="text-3xl font-bold">Siroccoi (U) Limited - Services</h1>
-        <nav class="mt-4">
-            <a href="index.html" class="mx-2 text-white hover:text-yellow-300">Home</a>
-            <a href="about-us.html" class="mx-2 text-white hover:text-yellow-300">About Us</a>
-            <a href="gallery.html" class="mx-2 text-white hover:text-yellow-300">Gallery</a>
-            <a href="contact-us.html" class="mx-2 text-white hoover:yellow-300">Contact Us</a>
-            <a href="services.html" class="mx-2 text-white hoover:yellow-300">Services</a>
-        </nav>
-    </header>
 
  <!-- Projects Section -->
  <section class="p-6 bg-cover bg-center bg-gradient-to-r from-blue-300 to-blue-900 via-blue-600" >
@@ -96,16 +115,76 @@
     </div>
 </section>
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white text-center p-6">
-    <p>&copy; 2024 Siroccoi (U) Ltd | All Rights Reserved</p>
-    <div class="flex justify-center mt-2 space-x-4">
-        <a href="https://www.facebook.com/yourpage" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/yourpage" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://wa.me/yourwhatsappphonenumber" target="_blank" class="text-white hover:text-yellow-300"><i class="fab fa-whatsapp"></i></a>
+<div class="site-footer"> 
+    <div class="footer-top-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="footer-lwf">
+              <h3 class="footer-logo"><img src="images/logo1.png" alt="Lawyer & Attorney"></h3>
+              <p>SIROCCOI (U) Ltd has his head office in JINJA, Uganda, providing a comprehensive range of Services to meet the demands of the Industrial and Construction sectors.</p>
+              <ul class="footer-contact">
+                <li><i class="fa fa-phone"></i> +256 706719459</li>
+                <li><i class="fa fa-envelope"></i> info@Siroccoi.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="footer-lwf footer-menu">
+              <h3 class="footer-lwf-title">Quick Links</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About SIROCCOI UGANDA</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="footer-lwf footer-menu">
+              <h3 class="footer-lwf-title">Links</h3>
+              <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="footer-lwf">
+              <h3 class="footer-lwf-title">Opening Hours</h3>
+              <ul class="open-hours">
+                <li><span>Mon to Fri:</span> <span class="text-right">8:00 AM to 6:00PM</span></li>
+                <li><span>Sun:</span> <span class="text-right">Closed</span></li>
+              </ul>
+              <div class="newsletter">
+                <form>
+                  <input type="text" placeholder="Enter your email" value="" class="news-input">
+                  <button type="submit" value="" class="news-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
-
+    <div class="footer-bottom-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-md-6"><span>SIRROCOI LTD</span>.</div>
+          <div class="col-md-12 col-md-6 text-right"><a target="_blank" href="https://www.templateshub.net">IAN technologies Ltd</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap JS -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>
